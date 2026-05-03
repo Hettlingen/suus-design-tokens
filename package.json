@@ -1,0 +1,32 @@
+{
+  "name": "suus-design-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "module",
+  "files": ["dist"],
+  "exports": {
+    "./css": "./dist/tokens.css",
+    "./tokens": "./dist/tokens.js",
+    "./tokens.json": "./dist/tokens.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "style-dictionary build --config style-dictionary.config.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hettlingen/suus-design-tokens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hettlingen/suus-design-tokens/issues"
+  },
+  "homepage": "https://github.com/Hettlingen/suus-design-tokens#readme",
+  "devDependencies": {
+    "style-dictionary": "^5.4.0"
+  }
+}
