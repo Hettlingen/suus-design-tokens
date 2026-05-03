@@ -1,0 +1,20 @@
+{
+  "color": {
+    "text": {
+      "dark": { "$value": "{color.brand.black}", "$type": "color" },
+      "light": { "$value": "{color.brand.white}", "$type": "color" },
+      "colored": { "$value": "{color.status.info}", "$type": "color" }
+    },
+    "disabled": { "$value": "#cecece", "$type": "color" },
+    "border": {
+      "default": { "$value": "#cecece", "$type": "color" },
+      "left-top": { "$value": "#cecece", "$type": "color" },
+      "right-bottom": { "$value": "#b5b5b5", "$type": "color" }
+    },
+    "link": { "$value": "{color.status.success}", "$type": "color" },
+    "hover": {
+      "default": { "$value": "#bcca63", "$type": "color" },
+      "inverse": { "$value": "#f3f4f0", "$type": "color" }
+    }
+  }
+}

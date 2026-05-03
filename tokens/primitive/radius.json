@@ -1,0 +1,8 @@
+{
+  "radius": {
+    "small": { "$value": "8px", "$type": "dimension" },
+    "default": { "$value": "16px", "$type": "dimension" },
+    "large": { "$value": "24px", "$type": "dimension" },
+    "round": { "$value": "100vw", "$type": "dimension" }
+  }
+}

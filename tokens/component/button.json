@@ -1,0 +1,7 @@
+{
+  "button": {
+    "border-width": { "$value": "{border.width.default}", "$type": "dimension" },
+    "padding": { "$value": "12px", "$type": "dimension" },
+    "radius": { "$value": "{radius.round}", "$type": "dimension" }
+  }
+}

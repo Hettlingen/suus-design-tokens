@@ -1,0 +1,28 @@
+{
+  "font": {
+    "family": {
+      "sans-serif": { "$value": "OpenSans", "$type": "fontFamily" },
+      "serif": { "$value": "Baskerville", "$type": "fontFamily" }
+    },
+    "size": {
+      "tiny": { "$value": "14px", "$type": "dimension" },
+      "small": { "$value": "16px", "$type": "dimension" },
+      "standard": { "$value": "20px", "$type": "dimension" },
+      "large": { "$value": "24px", "$type": "dimension" },
+      "title": { "$value": "2rem", "$type": "dimension" },
+      "subtitle": { "$value": "1.3rem", "$type": "dimension" }
+    },
+    "style": {
+      "normal": { "$value": "normal", "$type": "fontStyle" },
+      "italic": { "$value": "italic", "$type": "fontStyle" }
+    },
+    "weight": {
+      "light": { "$value": 300, "$type": "fontWeight" },
+      "normal": { "$value": 400, "$type": "fontWeight" },
+      "bold": { "$value": 700, "$type": "fontWeight" }
+    },
+    "letter-spacing": {
+      "default": { "$value": "0.016rem", "$type": "dimension" }
+    }
+  }
+}

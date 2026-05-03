@@ -1,0 +1,22 @@
+{
+  "tile": {
+    "background-color": {
+      "left-top": { "$value": "{color.brand.white}", "$type": "color" },
+      "right-bottom": { "$value": "{color.brand.white}", "$type": "color" }
+    },
+    "border-color": {
+      "left-top": { "$value": "{color.border.default}", "$type": "color" },
+      "right-bottom": { "$value": "{color.border.default}", "$type": "color" }
+    },
+    "border-radius": {
+      "small": { "$value": "12px", "$type": "dimension" },
+      "large": { "$value": "24px", "$type": "dimension" },
+      "huge": { "$value": "100vw", "$type": "dimension" }
+    },
+    "shadow": {
+      "$value": "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06)",
+      "$type": "shadow"
+    },
+    "padding": { "$value": "{spacing.small}", "$type": "dimension" }
+  }
+}

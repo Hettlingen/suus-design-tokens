@@ -1,0 +1,10 @@
+{
+  "spacing": {
+    "tiny": { "$value": "8px", "$type": "dimension" },
+    "small": { "$value": "16px", "$type": "dimension" },
+    "default": { "$value": "24px", "$type": "dimension" },
+    "large": { "$value": "32px", "$type": "dimension" },
+    "huge": { "$value": "40px", "$type": "dimension" },
+    "very-huge": { "$value": "60px", "$type": "dimension" }
+  }
+}

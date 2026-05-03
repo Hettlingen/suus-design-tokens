@@ -1,0 +1,9 @@
+{
+  "panel": {
+    "background-color": { "$value": "{color.brand.light-gray}", "$type": "color" },
+    "padding": {
+      "desktop": { "$value": "{spacing.large}", "$type": "dimension" },
+      "mobile": { "$value": "{spacing.small}", "$type": "dimension" }
+    }
+  }
+}
