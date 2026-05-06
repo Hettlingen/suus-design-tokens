@@ -1,13 +1,15 @@
 {
   "name": "suus-design-tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "main": "index.js",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     "./tokens.css": "./dist/tokens.css",
     "./tokens": "./dist/tokens.js",
