@@ -9,7 +9,7 @@
   "type": "module",
   "files": ["dist"],
   "exports": {
-    "./css": "./dist/tokens.css",
+    "./tokens.css": "./dist/tokens.css",
     "./tokens": "./dist/tokens.js",
     "./tokens.json": "./dist/tokens.json"
   },
