@@ -18,8 +18,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run prepare-tokens && style-dictionary build --config style-dictionary.config.mjs",
-    "prepublishOnly": "npm run build",
-    "prepare-tokens": "node scripts/token-studio-flatten-script.mjs"
+    "prepare-tokens": "node scripts/token-studio-flatten-script.mjs",
+    "build-push-publish": "npm version patch && git push && npm publish"
   },
   "repository": {
     "type": "git",
