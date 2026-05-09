@@ -673,167 +673,83 @@
       "$value": "{colors.grey.brand-light-gray}"
     }
   },
-  "desktop": {
-    "typeface": {
-      "font-family": {
-        "header": {
-          "$type": "text",
-          "$value": "sora"
-        },
-        "body": {
-          "$type": "text",
-          "$value": "sora"
-        },
-        "statement": {
-          "$type": "text",
-          "$value": "sora"
-        },
-        "form": {
-          "$type": "text",
-          "$value": "sora"
-        }
+  "typeface": {
+    "font-family": {
+      "header": {
+        "$type": "text",
+        "$value": "sora"
       },
-      "font-weight": {
-        "regular-400": {
-          "$type": "text",
-          "$value": "regular"
-        },
-        "bold-700": {
-          "$type": "text",
-          "$value": "bold"
-        },
-        "regular-500": {
-          "$type": "text",
-          "$value": "semi bold"
-        }
+      "body": {
+        "$type": "text",
+        "$value": "sora"
       },
-      "font-size": {
-        "small-16": {
-          "$type": "dimension",
-          "$value": "0.889rem"
-        },
-        "default-20": {
-          "$type": "dimension",
-          "$value": "1.111rem"
-        },
-        "large-24": {
-          "$type": "dimension",
-          "$value": "1.333rem"
-        },
-        "huge-48": {
-          "$type": "dimension",
-          "$value": "2.667rem"
-        },
-        "extra-huge-72": {
-          "$type": "dimension",
-          "$value": "4rem"
-        },
-        "extra-large-36": {
-          "$type": "dimension",
-          "$value": "2rem"
-        }
+      "statement": {
+        "$type": "text",
+        "$value": "sora"
       },
-      "letter-spacing": {
-        "default": {
-          "$type": "dimension",
-          "$value": "0.006rem"
-        },
-        "large": {
-          "$type": "dimension",
-          "$value": "0.011rem"
-        }
-      },
-      "line-height": {
-        "default-120": {
-          "$type": "dimension",
-          "$value": "6.667rem"
-        },
-        "large-150": {
-          "$type": "dimension",
-          "$value": "8.333rem"
-        }
+      "form": {
+        "$type": "text",
+        "$value": "sora"
       }
-    }
-  },
-  "mobile": {
-    "typeface": {
-      "font-family": {
-        "header": {
-          "$type": "text",
-          "$value": "sora"
-        },
-        "body": {
-          "$type": "text",
-          "$value": "sora"
-        },
-        "statement": {
-          "$type": "text",
-          "$value": "sora"
-        },
-        "form": {
-          "$type": "text",
-          "$value": "sora"
-        }
+    },
+    "font-weight": {
+      "regular-400": {
+        "$type": "text",
+        "$value": "regular"
       },
-      "font-weight": {
-        "regular-400": {
-          "$type": "text",
-          "$value": "regular"
-        },
-        "bold-700": {
-          "$type": "text",
-          "$value": "bold"
-        },
-        "regular-500": {
-          "$type": "text",
-          "$value": "semi bold"
-        }
+      "bold-700": {
+        "$type": "text",
+        "$value": "bold"
       },
-      "font-size": {
-        "small-16": {
-          "$type": "dimension",
-          "$value": "0.778rem"
-        },
-        "default-20": {
-          "$type": "dimension",
-          "$value": "0.889rem"
-        },
-        "large-24": {
-          "$type": "dimension",
-          "$value": "1.111rem"
-        },
-        "huge-48": {
-          "$type": "dimension",
-          "$value": "1.778rem"
-        },
-        "extra-huge-72": {
-          "$type": "dimension",
-          "$value": "2.667rem"
-        },
-        "extra-large-36": {
-          "$type": "dimension",
-          "$value": "1.333rem"
-        }
+      "regular-500": {
+        "$type": "text",
+        "$value": "semi bold"
+      }
+    },
+    "font-size": {
+      "small-16": {
+        "$type": "dimension",
+        "$value": "0.889rem"
       },
-      "letter-spacing": {
-        "default": {
-          "$type": "dimension",
-          "$value": "0.006rem"
-        },
-        "large": {
-          "$type": "dimension",
-          "$value": "0.011rem"
-        }
+      "default-20": {
+        "$type": "dimension",
+        "$value": "1.111rem"
       },
-      "line-height": {
-        "default-120": {
-          "$type": "dimension",
-          "$value": "6.667rem"
-        },
-        "large-150": {
-          "$type": "dimension",
-          "$value": "8.333rem"
-        }
+      "large-24": {
+        "$type": "dimension",
+        "$value": "1.333rem"
+      },
+      "huge-48": {
+        "$type": "dimension",
+        "$value": "2.667rem"
+      },
+      "extra-huge-72": {
+        "$type": "dimension",
+        "$value": "4rem"
+      },
+      "extra-large-36": {
+        "$type": "dimension",
+        "$value": "2rem"
+      }
+    },
+    "letter-spacing": {
+      "default": {
+        "$type": "dimension",
+        "$value": "0.006rem"
+      },
+      "large": {
+        "$type": "dimension",
+        "$value": "0.011rem"
+      }
+    },
+    "line-height": {
+      "default-120": {
+        "$type": "dimension",
+        "$value": "6.667rem"
+      },
+      "large-150": {
+        "$type": "dimension",
+        "$value": "8.333rem"
       }
     }
   }

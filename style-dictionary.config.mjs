@@ -1,5 +1,5 @@
 export default {
-    source: ['tokens/**/*.json'],
+    source: ['tokens/design-tokens.json'],
     platforms: {
         css: {
             transformGroup: 'css',
