@@ -695,15 +695,15 @@
     "font-weight": {
       "regular-400": {
         "$type": "text",
-        "$value": "regular"
+        "$value": "400"
       },
       "bold-700": {
         "$type": "text",
-        "$value": "bold"
+        "$value": "700"
       },
       "regular-500": {
         "$type": "text",
-        "$value": "semi bold"
+        "$value": "500"
       }
     },
     "font-size": {
