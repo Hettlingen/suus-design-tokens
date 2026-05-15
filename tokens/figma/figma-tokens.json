@@ -766,11 +766,11 @@
       "line-height": {
         "default-120": {
           "$type": "dimension",
-          "$value": "6.667rem"
+          "$value": "120%"
         },
         "large-150": {
           "$type": "dimension",
-          "$value": "8.333rem"
+          "$value": "150%"
         }
       }
     }
