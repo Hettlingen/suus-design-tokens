@@ -221,6 +221,22 @@
       },
       "border": {
         "color": {
+          "enabled": {
+            "$type": "color",
+            "$value": "{colors.gray.brand-light-gray}"
+          },
+          "selected": {
+            "$type": "color",
+            "$value": "{colors.green.brand-primary}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{colors.gray.brand-light-gray}"
+          },
+          "selected-glassy": {
+            "$type": "color",
+            "$value": "{colors.gray.brand-white}"
+          },
           "success": {
             "$type": "color",
             "$value": "{colors.status.success}"
@@ -229,29 +245,9 @@
             "$type": "color",
             "$value": "{colors.status.warning}"
           },
-          "disabled": {
-            "$type": "color",
-            "$value": "{colors.gray.brand-light-gray}"
-          },
-          "selected-dark": {
-            "$type": "color",
-            "$value": "{colors.green.brand-primary-dark}"
-          },
           "error": {
             "$type": "color",
             "$value": "{colors.status.error}"
-          },
-          "default": {
-            "$type": "color",
-            "$value": "{colors.green.brand-primary-dark}"
-          },
-          "selected-glassy": {
-            "$type": "color",
-            "$value": "{colors.gray.brand-white}"
-          },
-          "selected-light": {
-            "$type": "color",
-            "$value": "{colors.green.brand-primary}"
           }
         },
         "width": {
@@ -261,7 +257,7 @@
           },
           "selected": {
             "$type": "dimension",
-            "$value": "{borders.default}"
+            "$value": "{borders.thick}"
           }
         }
       },
