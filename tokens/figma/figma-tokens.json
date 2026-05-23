@@ -436,19 +436,11 @@
         }
       },
       "padding": {
-        "top-bottom-desktop": {
+        "desktop": {
           "$type": "dimension",
           "$value": "{spacing.large}"
         },
-        "right-left-desktop": {
-          "$type": "dimension",
-          "$value": "{spacing.large}"
-        },
-        "top-bottom-mobile": {
-          "$type": "dimension",
-          "$value": "{spacing.default}"
-        },
-        "right-left-mobile": {
+        "mobile": {
           "$type": "dimension",
           "$value": "{spacing.default}"
         }
