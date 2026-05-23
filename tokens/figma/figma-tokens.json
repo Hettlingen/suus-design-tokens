@@ -292,6 +292,16 @@
           "$type": "dimension",
           "$value": "{spacing.default}"
         }
+      },
+      "tile": {
+        "radius": {
+          "$type": "dimension",
+          "$value": "{radius.small}"
+        },
+        "padding": {
+          "$type": "dimension",
+          "$value": "{spacing.default}"
+        }
       }
     }
   },
@@ -305,6 +315,16 @@
         "padding": {
           "$type": "dimension",
           "$value": "{spacing.large}"
+        }
+      },
+      "tile": {
+        "radius": {
+          "$type": "dimension",
+          "$value": "{radius.small}"
+        },
+        "padding": {
+          "$type": "dimension",
+          "$value": "{spacing.default}"
         }
       }
     }
@@ -502,7 +522,13 @@
       "radius": {
         "default": {
           "$type": "dimension",
-          "$value": "{radius.default}"
+          "$value": "{mode.tile.radius}"
+        }
+      },
+      "padding": {
+        "default": {
+          "$type": "dimension",
+          "$value": "{mode.tile.padding}"
         }
       },
       "shadow": {
