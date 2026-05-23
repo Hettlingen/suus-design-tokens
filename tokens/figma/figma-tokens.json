@@ -314,11 +314,11 @@
           "$type": "color",
           "$value": "{color.gray.bright}"
         },
-        "brand-gradient-from": {
+        "gradient-from": {
           "$type": "color",
           "$value": "{color.green.light}"
         },
-        "brand-gradient-to": {
+        "gradient-to": {
           "$type": "color",
           "$value": "{color.green.default}"
         },
@@ -337,6 +337,10 @@
           "$value": "{color.gray.white}"
         },
         "disabled": {
+          "$type": "color",
+          "$value": "{color.gray.light}"
+        },
+        "placeholder": {
           "$type": "color",
           "$value": "{color.gray.light}"
         }
@@ -657,15 +661,15 @@
         "text": {
           "label": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{color.text.dark}"
           },
           "placeholder": {
             "$type": "color",
-            "$value": "{color.text.muted}"
+            "$value": "{color.text.placeholder}"
           },
           "content": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{color.text.dark}"
           }
         },
         "border": {
@@ -699,15 +703,15 @@
         "text": {
           "label": {
             "$type": "color",
-            "$value": "{color.text.inverse}"
+            "$value": "{color.text.light}"
           },
           "placeholder": {
             "$type": "color",
-            "$value": "{color.text.disabled}"
+            "$value": "{color.text.placeholder}"
           },
           "content": {
             "$type": "color",
-            "$value": "{color.text.inverse}"
+            "$value": "{color.text.light}"
           }
         }
       },
@@ -776,7 +780,7 @@
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{color.text.light}"
         }
       },
       "warning": {
@@ -790,7 +794,7 @@
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{color.text.light}"
         }
       },
       "success": {
@@ -804,7 +808,7 @@
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{color.text.light}"
         }
       },
       "error": {
@@ -818,7 +822,7 @@
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{color.text.light}"
         }
       },
       "border-width": {
@@ -830,19 +834,19 @@
       "color": {
         "default": {
           "$type": "color",
-          "$value": "{color.brand.primary-hover}"
+          "$value": "{color.text.dark}"
         },
         "inverse": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{color.text.light}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{color.text.dark}"
         },
         "selected-inverse": {
           "$type": "color",
-          "$value": "{color.brand.primary-hover}"
+          "$value": "{color.text.light}"
         },
         "disabled": {
           "$type": "color",
@@ -905,33 +909,29 @@
       }
     },
     "menu": {
-      "white": {
-        "$type": "color",
-        "$value": "{form.text.label-glassy}"
-      },
-      "hover": {
-        "$type": "color",
-        "$value": "{color.green.light}"
-      },
-      "text-selected": {
-        "$type": "color",
-        "$value": "{color.green.light}"
-      },
-      "flyout-gradient-to": {
-        "$type": "color",
-        "$value": "{color.green.midnight}"
-      },
-      "flyout-gradient-from": {
-        "$type": "color",
-        "$value": "{color.green.light}"
+      "text": {
+        "white": {
+          "$type": "color",
+          "$value": "{color.text.light}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.green.light}"
+        },
+        "text-selected": {
+          "$type": "color",
+          "$value": "{color.green.light}"
+        }
       },
       "background": {
-        "$type": "color",
-        "$value": "{color.gray.white}"
-      },
-      "dark": {
-        "$type": "color",
-        "$value": "{color.green.midnight}"
+        "flyout-gradient-from": {
+          "$type": "color",
+          "$value": "{color.green.light}"
+        },
+        "flyout-gradient-to": {
+          "$type": "color",
+          "$value": "{color.green.midnight}"
+        }
       }
     },
     "illustrations": {
@@ -951,7 +951,7 @@
       },
       "label": {
         "$type": "color",
-        "$value": "{form.text.label}"
+        "$value": "{color.text.dark}"
       },
       "border-dot": {
         "$type": "color",
