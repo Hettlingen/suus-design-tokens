@@ -827,25 +827,27 @@
       }
     },
     "icon": {
-      "inverse-selected": {
-        "$type": "color",
-        "$value": "{color.green.dark}"
-      },
-      "default": {
-        "$type": "color",
-        "$value": "{color.green.dark}"
-      },
-      "inverse": {
-        "$type": "color",
-        "$value": "{color.gray.white}"
-      },
-      "default-selected": {
-        "$type": "color",
-        "$value": "{color.gray.white}"
-      },
-      "disabled": {
-        "$type": "color",
-        "$value": "{form.text.disabled}"
+      "color": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.brand.primary-hover}"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{color.text.inverse}"
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{color.text.inverse}"
+        },
+        "selected-inverse": {
+          "$type": "color",
+          "$value": "{color.brand.primary-hover}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.text.disabled}"
+        }
       },
       "text": {
         "default": {
