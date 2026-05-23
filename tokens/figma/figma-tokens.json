@@ -170,6 +170,32 @@
         "$value": "2px"
       }
     },
+    "shadow": {
+      "elevation": {
+        "default": {
+          "$type": "boxShadow",
+          "$value": {
+            "x": "0px",
+            "y": "2px",
+            "blur": "8px",
+            "spread": "0px",
+            "color": "rgba(0, 0, 0, 0.08)",
+            "type": "dropShadow"
+          }
+        },
+        "large": {
+          "$type": "boxShadow",
+          "$value": {
+            "x": "0px",
+            "y": "8px",
+            "blur": "24px",
+            "spread": "0px",
+            "color": "rgba(0, 0, 0, 0.12)",
+            "type": "dropShadow"
+          }
+        }
+      }
+    },
     "typeface": {
       "font-family": {
         "sans-serif": {
@@ -465,6 +491,16 @@
         "default": {
           "$type": "dimension",
           "$value": "{radius.default}"
+        }
+      },
+      "shadow": {
+        "default": {
+          "$type": "boxShadow",
+          "$value": "{shadow.elevation.default}"
+        },
+        "hover": {
+          "$type": "boxShadow",
+          "$value": "{shadow.elevation.large}"
         }
       }
     },
