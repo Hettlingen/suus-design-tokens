@@ -281,6 +281,34 @@
       }
     }
   },
+  "mode/mobile": {
+    "mode": {
+      "panel": {
+        "radius": {
+          "$type": "dimension",
+          "$value": "{radius.small}"
+        },
+        "padding": {
+          "$type": "dimension",
+          "$value": "{spacing.default}"
+        }
+      }
+    }
+  },
+  "mode/desktop": {
+    "mode": {
+      "panel": {
+        "radius": {
+          "$type": "dimension",
+          "$value": "{radius.large}"
+        },
+        "padding": {
+          "$type": "dimension",
+          "$value": "{spacing.large}"
+        }
+      }
+    }
+  },
   "semantic/tokens": {
     "color": {
       "brand": {
@@ -430,24 +458,12 @@
         }
       },
       "radius": {
-        "desktop": {
-          "$type": "dimension",
-          "$value": "{radius.large}"
-        },
-        "mobile": {
-          "$type": "dimension",
-          "$value": "{radius.small}"
-        }
+        "$type": "dimension",
+        "$value": "{mode.panel.radius}"
       },
       "padding": {
-        "desktop": {
-          "$type": "dimension",
-          "$value": "{spacing.large}"
-        },
-        "mobile": {
-          "$type": "dimension",
-          "$value": "{spacing.default}"
-        }
+        "$type": "dimension",
+        "$value": "{mode.panel.padding}"
       }
     },
     "tile": {
@@ -1138,6 +1154,8 @@
   "$metadata": {
     "tokenSetOrder": [
       "primitive/tokens",
+      "mode/mobile",
+      "mode/desktop",
       "semantic/tokens",
       "typography/tokens"
     ]
