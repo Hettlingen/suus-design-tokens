@@ -561,6 +561,16 @@
               "$value": "{color.green.dark}"
             }
           }
+        },
+        "shadow": {
+          "default": {
+            "$type": "boxShadow",
+            "$value": "{shadow.elevation.default}"
+          },
+          "hover": {
+            "$type": "boxShadow",
+            "$value": "{shadow.elevation.large}"
+          }
         }
       },
       "secondary": {
@@ -618,6 +628,16 @@
               "$type": "color",
               "$value": "{color.green.dark}"
             }
+          }
+        },
+        "shadow": {
+          "default": {
+            "$type": "boxShadow",
+            "$value": "{shadow.elevation.default}"
+          },
+          "hover": {
+            "$type": "boxShadow",
+            "$value": "{shadow.elevation.large}"
           }
         }
       },
