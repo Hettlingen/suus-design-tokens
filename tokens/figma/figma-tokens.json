@@ -199,37 +199,37 @@
     "typeface": {
       "font-family": {
         "sans-serif": {
-          "$type": "text",
+          "$type": "fontFamilies",
           "$value": "Sora"
         },
         "header": {
-          "$type": "text",
+          "$type": "fontFamilies",
           "$value": "{typeface.font-family.sans-serif}"
         },
         "body": {
-          "$type": "text",
+          "$type": "fontFamilies",
           "$value": "{typeface.font-family.sans-serif}"
         },
         "statement": {
-          "$type": "text",
+          "$type": "fontFamilies",
           "$value": "{typeface.font-family.sans-serif}"
         },
         "form": {
-          "$type": "text",
+          "$type": "fontFamilies",
           "$value": "{typeface.font-family.sans-serif}"
         }
       },
       "font-weight": {
         "regular-400": {
-          "$type": "text",
+          "$type": "fontWeights",
           "$value": "400"
         },
         "medium-500": {
-          "$type": "text",
+          "$type": "fontWeights",
           "$value": "500"
         },
         "bold-700": {
-          "$type": "text",
+          "$type": "fontWeights",
           "$value": "700"
         }
       },
