@@ -627,13 +627,13 @@
             "$type": "color",
             "$value": "{color.green.midnight}"
           },
-          "disabled": {
-            "$type": "color",
-            "$value": "{color.gray.light}"
-          },
           "hover": {
             "$type": "color",
             "$value": "{color.green.dark}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.gray.light}"
           }
         },
         "text": {
@@ -760,6 +760,26 @@
       "border-width": {
         "$type": "dimension",
         "$value": "{border.default}"
+      },
+      "gap": {
+        "default": {
+          "$type": "dimension",
+          "$value": "{spacing.tiny}"
+        }
+      },
+      "padding": {
+        "x": {
+          "default": {
+            "$type": "dimension",
+            "$value": "{spacing.4}"
+          }
+        },
+        "y": {
+          "default": {
+            "$type": "dimension",
+            "$value": "{spacing.2}"
+          }
+        }
       }
     },
     "form": {
