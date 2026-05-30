@@ -691,11 +691,11 @@
         "padding": {
           "top-bottom": {
             "$type": "dimension",
-            "$value": "{padding.tiny}"
+            "$value": "{padding.8}"
           },
           "left-right": {
             "$type": "dimension",
-            "$value": "{padding.large}"
+            "$value": "{padding.40}"
           }
         },
         "shadow": {
@@ -767,11 +767,11 @@
         "padding": {
           "top-bottom": {
             "$type": "dimension",
-            "$value": "{padding.tiny}"
+            "$value": "{padding.8}"
           },
           "left-right": {
             "$type": "dimension",
-            "$value": "{padding.large}"
+            "$value": "{padding.40}"
           }
         },
         "shadow": {
