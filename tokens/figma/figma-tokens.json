@@ -116,7 +116,7 @@
         }
       }
     },
-    "spacing": {
+    "padding": {
       "tiny": {
         "$type": "dimension",
         "$value": "8px"
@@ -676,6 +676,16 @@
             }
           }
         },
+        "padding": {
+          "top-bottom": {
+            "$type": "dimension",
+            "$value": "{padding.tiny}"
+          },
+          "left-right": {
+            "$type": "dimension",
+            "$value": "{padding.large}"
+          }
+        },
         "shadow": {
           "default": {
             "$type": "boxShadow",
@@ -740,6 +750,16 @@
               "$type": "color",
               "$value": "{color.green.dark}"
             }
+          }
+        },
+        "padding": {
+          "top-bottom": {
+            "$type": "dimension",
+            "$value": "{padding.tiny}"
+          },
+          "left-right": {
+            "$type": "dimension",
+            "$value": "{padding.large}"
           }
         },
         "shadow": {
