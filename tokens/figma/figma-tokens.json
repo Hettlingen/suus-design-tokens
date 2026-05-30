@@ -302,7 +302,7 @@
         },
         "padding": {
           "$type": "dimension",
-          "$value": "{spacing.default}"
+          "$value": "{padding.40}"
         }
       },
       "tile": {
@@ -312,7 +312,7 @@
         },
         "padding": {
           "$type": "dimension",
-          "$value": "{spacing.default}"
+          "$value": "{padding.32}"
         }
       }
     }
@@ -326,7 +326,7 @@
         },
         "padding": {
           "$type": "dimension",
-          "$value": "{spacing.large}"
+          "$value": "{padding.64}"
         }
       },
       "tile": {
@@ -336,7 +336,7 @@
         },
         "padding": {
           "$type": "dimension",
-          "$value": "{spacing.default}"
+          "$value": "{padding.56}"
         }
       }
     }
