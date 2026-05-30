@@ -117,25 +117,37 @@
       }
     },
     "padding": {
-      "tiny": {
+      "8": {
         "$type": "dimension",
         "$value": "8px"
       },
-      "small": {
+      "16": {
         "$type": "dimension",
         "$value": "16px"
       },
-      "default": {
+      "24": {
         "$type": "dimension",
         "$value": "24px"
       },
-      "large": {
+      "32": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "40": {
         "$type": "dimension",
         "$value": "40px"
       },
-      "huge": {
+      "48": {
         "$type": "dimension",
-        "$value": "60px"
+        "$value": "48px"
+      },
+      "56": {
+        "$type": "dimension",
+        "$value": "56px"
+      },
+      "64": {
+        "$type": "dimension",
+        "$value": "64px"
       }
     },
     "radius": {
