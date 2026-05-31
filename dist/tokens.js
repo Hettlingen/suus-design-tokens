@@ -2,47 +2,110 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const ColorsGoldBrandSecondaryBright = "#f9db86";
-export const ColorsGoldBrandSecondaryLight = "#eec348";
-export const ColorsGoldBrandSecondary = "#d9ab29";
-export const ColorsGoldBrandSecondaryMidnight = "#97771d";
-export const ColorsGoldBrandSecondaryDark = "#b58f24";
-export const ColorsGrayBrandWhite = "#ffffff";
-export const ColorsGrayBrandBrightGray = "#eeeeee";
-export const ColorsGrayBrandLightGray = "#dfdfdf";
-export const ColorsGrayBrandGray = "#c2bfbf";
-export const ColorsGrayBrandDarkGray = "#5b5a5a";
-export const ColorsGrayBrandBlack = "#272727";
-export const ColorsGrayBrandWhiteTransparent40 = "#ffffff66";
-export const ColorsGrayBrandWhiteTransparent70 = "#ffffffb3";
-export const ColorsStatusSuccess = "#afc33b";
-export const ColorsStatusWarning = "#d9ab29";
-export const ColorsStatusError = "#de6565";
-export const ColorsStatusInfo = "#afc33b";
-export const ColorsGreenBrandPrimaryBright = "#e5fc5a";
-export const ColorsGreenBrandPrimaryLight = "#d0e646";
-export const ColorsGreenBrandPrimary = "#afc33b";
-export const ColorsGreenBrandPrimaryDark = "#8fa02a";
-export const ColorsGreenBrandPrimaryMidnight = "#5c6814";
-export const ColorsJuiceSugarcane = "#9bad30";
-export const ColorsJuiceTamarind = "#da8e33";
-export const ColorsJuiceGuava = "#7b4e80";
-export const ColorsJuiceIcetea = "#d83a4f";
-export const SpacingTiny = "8px";
-export const SpacingSmall = "16px";
-export const SpacingDefault = "24px";
-export const SpacingLarge = "40px";
-export const SpacingHuge = "60px";
+export const ColorGreenBright = "#e5fc5a";
+export const ColorGreenLight = "#d0e646";
+export const ColorGreenDefault = "#afc33b";
+export const ColorGreenDark = "#8fa02a";
+export const ColorGreenMidnight = "#5c6814";
+export const ColorGoldBright = "#f9db86";
+export const ColorGoldLight = "#eec348";
+export const ColorGoldDefault = "#d9ab29";
+export const ColorGoldDark = "#b58f24";
+export const ColorGoldMidnight = "#97771d";
+export const ColorGrayWhite = "#ffffff";
+export const ColorGrayBright = "#eeeeee";
+export const ColorGrayLight = "#dfdfdf";
+export const ColorGrayDefault = "#c2bfbf";
+export const ColorGrayMidnight = "#5b5a5a";
+export const ColorGrayDark = "#272727";
+export const ColorGrayWhiteTransparent40 = "#ffffff66";
+export const ColorGrayWhiteTransparent70 = "#ffffffb3";
+export const ColorStatesSuccess = "#afc33b";
+export const ColorStatesWarning = "#d9ab29";
+export const ColorStatesError = "#de6565";
+export const ColorStatesInfo = "#afc33b";
+export const ColorJuiceSugarcane = "#9bad30";
+export const ColorJuiceTamarind = "#da8e33";
+export const ColorJuiceGuava = "#7b4e80";
+export const ColorJuiceIcetea = "#d83a4f";
+export const ColorBrandBright = "#e5fc5a";
+export const ColorBrandLight = "#d0e646";
+export const ColorBrandDefault = "#afc33b";
+export const ColorBrandDark = "#8fa02a";
+export const ColorBrandMidnight = "#5c6814";
+export const ColorSurfaceLight = "#ffffff";
+export const ColorSurfaceMuted = "#eeeeee";
+export const ColorSurfaceGlass = "#ffffffb3";
+export const ColorSurfaceGradientFrom = "#d0e646";
+export const ColorSurfaceGradientTo = "#5c6814";
+export const ColorTextDark = "#272727";
+export const ColorTextLight = "#ffffff";
+export const ColorTextMuted = "#5b5a5a";
+export const ColorTextDisabled = "#c2bfbf";
+export const ColorTextPlaceholder = "#c2bfbf";
+export const ColorBorderDefault = "#dfdfdf";
+export const ColorBorderStrong = "#c2bfbf";
+export const ColorBorderFocus = "#afc33b";
+export const ColorStatusSuccess = "#afc33b";
+export const ColorStatusWarning = "#d9ab29";
+export const ColorStatusError = "#de6565";
+export const ColorStatusInfo = "#afc33b";
+export const Padding8 = "8px";
+export const Padding16 = "16px";
+export const Padding24 = "24px";
+export const Padding32 = "32px";
+export const Padding40 = "40px";
+export const Padding48 = "48px";
+export const Padding56 = "56px";
+export const Padding64 = "64px";
 export const RadiusSmall = "8px";
 export const RadiusDefault = "16px";
 export const RadiusLarge = "24px";
 export const RadiusHuge = "50px";
-export const BordersThin = "0.5px";
-export const BordersDefault = "1px";
-export const BordersThick = "2px";
+export const BorderThin = "0.5px";
+export const BorderDefault = "1px";
+export const BorderThick = "2px";
+export const ShadowElevationDefault = {
+  x: "0px",
+  y: "2px",
+  blur: "8px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.08)",
+  type: "dropShadow",
+};
+export const ShadowElevationLarge = {
+  x: "0px",
+  y: "8px",
+  blur: "24px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.12)",
+  type: "dropShadow",
+};
+export const TypefaceFontFamilySansSerif = "Sora";
+export const TypefaceFontFamilyHeader = "Sora";
+export const TypefaceFontFamilyBody = "Sora";
+export const TypefaceFontFamilyStatement = "Sora";
+export const TypefaceFontFamilyForm = "Sora";
+export const TypefaceFontWeightRegular400 = "400";
+export const TypefaceFontWeightMedium500 = "500";
+export const TypefaceFontWeightBold700 = "700";
+export const TypefaceFontSizeSmall16 = "0.889rem";
+export const TypefaceFontSizeDefault20 = "1.111rem";
+export const TypefaceFontSizeLarge24 = "1.333rem";
+export const TypefaceFontSizeExtraLarge36 = "2rem";
+export const TypefaceFontSizeHuge48 = "2.667rem";
+export const TypefaceFontSizeExtraHuge72 = "4rem";
+export const TypefaceLetterSpacingDefault = "0.006rem";
+export const TypefaceLetterSpacingLarge = "0.011rem";
+export const TypefaceLineHeightDefault120 = "120%";
+export const TypefaceLineHeightLarge150 = "150%";
+export const ModePanelRadius = "24px";
+export const ModePanelPadding = "64px";
+export const ModeTileRadius = "8px";
+export const ModeTilePadding = "56px";
 export const PanelBackgroundTransparent = "#ffffffb3";
 export const PanelBackgroundWhite = "#ffffff";
-export const PanelBackgroundGray = "#c2bfbf";
+export const PanelBackgroundGray = "#eeeeee";
 export const PanelBackgroundGradientTopLeftGreen = "#d0e646";
 export const PanelBackgroundGradientBottomRightGreen = "#5c6814";
 export const PanelBackgroundGradientTopLeftWhite = "#ffffffb3";
@@ -51,119 +114,322 @@ export const PanelTextTitle = "#8fa02a";
 export const PanelTextTitleGlassy = "#ffffff";
 export const PanelBorderColor = "#dfdfdf";
 export const PanelBorderWidth = "1px";
-export const PanelRadiusDesktop = "24px";
-export const PanelRadiusMobile = "8px";
-export const PanelPaddingTopBottomDesktop = "40px";
-export const PanelPaddingRightLeftDesktop = "40px";
-export const PanelPaddingTopBottomMobile = "24px";
-export const PanelPaddingRightLeftMobile = "24px";
-export const TileBackgroundDefault = "#ffffff";
-export const TileTextTitle = "#5b5a5a";
-export const TileTextContent = "#5b5a5a";
-export const TileBorderColor = "#c2bfbf";
+export const PanelRadius = "24px";
+export const PanelPadding = "64px";
+export const TileDefaultBackgroundDefault = "#ffffff";
+export const TileDefaultBackgroundHover = "#eeeeee";
+export const TileDefaultTextTitle = "#272727";
+export const TileDefaultTextContent = "#272727";
+export const TileDefaultTextMuted = "#5b5a5a";
+export const TileDefaultBorderColorDefault = "#c2bfbf";
+export const TileDefaultBorderColorHover = "#afc33b";
+export const TileDefaultShadowDefault = {
+  x: "0px",
+  y: "2px",
+  blur: "8px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.08)",
+  type: "dropShadow",
+};
+export const TileDefaultShadowHover = {
+  x: "0px",
+  y: "8px",
+  blur: "24px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.12)",
+  type: "dropShadow",
+};
+export const TileGlassyBackgroundDefault = "#ffffffb3";
+export const TileGlassyBackgroundHover = "#ffffff66";
+export const TileGlassyTextTitle = "#ffffff";
+export const TileGlassyTextContent = "#ffffff";
+export const TileGlassyTextMuted = "#dfdfdf";
+export const TileGlassyBorderColorDefault = "#ffffffb3";
+export const TileGlassyBorderColorHover = "#ffffff";
+export const TileGlassyShadowDefault = {
+  x: "0px",
+  y: "2px",
+  blur: "8px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.08)",
+  type: "dropShadow",
+};
+export const TileGlassyShadowHover = {
+  x: "0px",
+  y: "8px",
+  blur: "24px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.12)",
+  type: "dropShadow",
+};
 export const TileBorderWidthDefault = "1px";
 export const TileBorderWidthThick = "2px";
-export const TileRadiusDefault = "16px";
-export const ButtonBackgroundDisabled = "#dfdfdf";
-export const ButtonBackgroundEnabled = "#afc33b";
-export const ButtonBackgroundEnabledGradientFrom = "#d0e646";
-export const ButtonBackgroundEnabledGradientMiddle = "#8fa02a";
-export const ButtonBackgroundEnabledGradientTo = "#5c6814";
-export const ButtonBackgroundInverse = "#ffffff";
-export const ButtonBackgroundHover = "#8fa02a";
-export const ButtonTextPrimary = "#ffffff";
-export const ButtonTextPrimaryDisabled = "#c2bfbf";
-export const ButtonTextSecondary = "#8fa02a";
-export const ButtonTextSecondaryDisabled = "#afc33b";
-export const ButtonBorderColorDefault = "#afc33b";
-export const ButtonBorderColorDisabled = "#c2bfbf";
-export const ButtonBorderColorSelected = "#8fa02a";
-export const ButtonBorderColorHover = "#8fa02a";
-export const ButtonBorderWidthDefault = "1px";
+export const TileRadiusDefault = "8px";
+export const TilePaddingDefault = "56px";
+export const ButtonPrimaryBackgroundEnabled = "#afc33b";
+export const ButtonPrimaryBackgroundEnabledGradientFrom = "#d0e646";
+export const ButtonPrimaryBackgroundEnabledGradientTo = "#5c6814";
+export const ButtonPrimaryBackgroundHover = "#8fa02a";
+export const ButtonPrimaryBackgroundDisabled = "#dfdfdf";
+export const ButtonPrimaryTextDefault = "#ffffff";
+export const ButtonPrimaryTextDisabled = "#c2bfbf";
+export const ButtonPrimaryIconDefault = "#ffffff";
+export const ButtonPrimaryIconDisabled = "#c2bfbf";
+export const ButtonPrimaryBorderColorDefault = "#afc33b";
+export const ButtonPrimaryBorderColorDisabled = "#c2bfbf";
+export const ButtonPrimaryBorderColorSelected = "#8fa02a";
+export const ButtonPrimaryBorderColorHover = "#8fa02a";
+export const ButtonPrimaryShadowDefault = {
+  x: "0px",
+  y: "2px",
+  blur: "8px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.08)",
+  type: "dropShadow",
+};
+export const ButtonPrimaryShadowHover = {
+  x: "0px",
+  y: "8px",
+  blur: "24px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.12)",
+  type: "dropShadow",
+};
+export const ButtonSecondaryBackgroundEnabled = "#ffffff";
+export const ButtonSecondaryBackgroundDisabled = "#eeeeee";
+export const ButtonSecondaryBackgroundHover = "#eeeeee";
+export const ButtonSecondaryTextDefault = "#8fa02a";
+export const ButtonSecondaryTextDisabled = "#c2bfbf";
+export const ButtonSecondaryIconDefault = "#8fa02a";
+export const ButtonSecondaryIconDisabled = "#c2bfbf";
+export const ButtonSecondaryBorderColorDefault = "#afc33b";
+export const ButtonSecondaryBorderColorDisabled = "#c2bfbf";
+export const ButtonSecondaryBorderColorSelected = "#8fa02a";
+export const ButtonSecondaryBorderColorHover = "#8fa02a";
+export const ButtonSecondaryShadowDefault = {
+  x: "0px",
+  y: "2px",
+  blur: "8px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.08)",
+  type: "dropShadow",
+};
+export const ButtonSecondaryShadowHover = {
+  x: "0px",
+  y: "8px",
+  blur: "24px",
+  spread: "0px",
+  color: "rgba(0, 0, 0, 0.12)",
+  type: "dropShadow",
+};
 export const ButtonRadius = "50px";
-export const FormBackgroundWhite = "#ffffff";
-export const FormBackgroundGlassy = "#ffffff66";
-export const FormBackgroundDisabled = "#eeeeee";
-export const FormBackgroundGray = "#dfdfdf";
-export const FormBorderColorSuccess = "#afc33b";
-export const FormBorderColorWarning = "#d9ab29";
-export const FormBorderColorDisabled = "#dfdfdf";
-export const FormBorderColorSelectedDark = "#8fa02a";
-export const FormBorderColorError = "#de6565";
-export const FormBorderColorDefault = "#8fa02a";
-export const FormBorderColorSelectedGlassy = "#ffffff";
-export const FormBorderColorSelectedLight = "#afc33b";
-export const FormBorderWidthDefault = "1px";
-export const FormBorderWidthSelected = "1px";
+export const ButtonBorderWidth = "1px";
+export const ButtonGapDefault = "8px";
+export const ButtonPaddingTop = "8px";
+export const ButtonPaddingBottom = "8px";
+export const ButtonPaddingLeft = "32px";
+export const ButtonPaddingRight = "40px";
+export const FormDefaultBackgroundWhite = "#ffffff";
+export const FormDefaultBackgroundDisabled = "#eeeeee";
+export const FormDefaultTextLabel = "#272727";
+export const FormDefaultTextPlaceholder = "#c2bfbf";
+export const FormDefaultTextContent = "#272727";
+export const FormDefaultBorderColorEnabled = "#dfdfdf";
+export const FormDefaultBorderColorSelected = "#afc33b";
+export const FormDefaultBorderColorDisabled = "#dfdfdf";
+export const FormGlassyBackgroundWhiteTransparent = "#ffffff66";
+export const FormGlassyBackgroundDisabled = "#eeeeee";
+export const FormGlassyTextLabel = "#ffffff";
+export const FormGlassyTextPlaceholder = "#dfdfdf";
+export const FormGlassyTextContent = "#ffffff";
+export const FormGlassyBorderColorEnabled = "#ffffffb3";
+export const FormGlassyBorderColorSelected = "#ffffff";
+export const FormGlassyBorderColorDisabled = "#dfdfdf";
+export const FormMessageSuccess = "#afc33b";
+export const FormMessageWarning = "#d9ab29";
+export const FormMessageError = "#de6565";
+export const FormMessageInfo = "#afc33b";
 export const FormRadiusDefault = "16px";
-export const FormTextLabel = "#5b5a5a";
-export const FormTextPlaceholder = "#c2bfbf";
-export const FormTextContent = "#5b5a5a";
-export const FormTextDisabled = "#dfdfdf";
-export const FormTextSuccess = "#afc33b";
-export const FormTextWarning = "#d9ab29";
-export const FormTextError = "#de6565";
-export const FormTextInfo = "#afc33b";
-export const FormTextLabelGlassy = "#ffffff";
-export const FormTextPlaceholderGlassy = "#dfdfdf";
-export const FormTextContentGlassy = "#ffffff";
-export const SnackbarBackgroundWarning = "#d9ab29";
-export const SnackbarBackgroundError = "#de6565";
-export const SnackbarBackgroundInfo = "#afc33b";
-export const SnackbarBackgroundSuccess = "#afc33b";
-export const SnackbarBorderColorSuccess = "#afc33b";
-export const SnackbarBorderColorError = "#de6565";
-export const SnackbarBorderColorWarning = "#d9ab29";
-export const SnackbarBorderColorInfo = "#afc33b";
-export const SnackbarBorderWidthDefault = "2px";
-export const SnackbarTextDefault = "#ffffff";
-export const IconInverseSelected = "#8fa02a";
-export const IconDefault = "#8fa02a";
-export const IconInverse = "#ffffff";
-export const IconDefaultSelected = "#ffffff";
-export const IconDisabled = "#dfdfdf";
-export const IconTextDefault = "#8fa02a";
-export const IconTextGlassy = "#ffffff";
-export const TextTitleDefault = "#5b5a5a";
+export const FormBorderWidthDefault = "1px";
+export const FormBorderWidthSelected = "2px";
+export const SnackbarInfoBackground = "#afc33b";
+export const SnackbarInfoBorder = "#afc33b";
+export const SnackbarInfoText = "#ffffff";
+export const SnackbarWarningBackground = "#d9ab29";
+export const SnackbarWarningBorder = "#d9ab29";
+export const SnackbarWarningText = "#ffffff";
+export const SnackbarSuccessBackground = "#afc33b";
+export const SnackbarSuccessBorder = "#afc33b";
+export const SnackbarSuccessText = "#ffffff";
+export const SnackbarErrorBackground = "#de6565";
+export const SnackbarErrorBorder = "#de6565";
+export const SnackbarErrorText = "#ffffff";
+export const SnackbarBorderWidth = "2px";
+export const IconColorDefault = "#272727";
+export const IconColorInverse = "#ffffff";
+export const IconColorSelected = "#8fa02a";
+export const IconColorSelectedInverse = "#ffffff";
+export const IconColorDisabled = "#c2bfbf";
+export const TextTitleDefault = "#272727";
 export const TextTitleGlassy = "#ffffff";
-export const TextContentText = "#5b5a5a";
-export const TextContentTextLight = "#dfdfdf";
-export const TextContentTextWhite = "#ffffff";
+export const TextContentDefault = "#272727";
+export const TextContentMuted = "#5b5a5a";
+export const TextContentLight = "#ffffff";
 export const TextMessagesInfo = "#afc33b";
 export const TextMessagesWarning = "#d9ab29";
 export const TextMessagesError = "#de6565";
 export const TextMessagesSuccess = "#afc33b";
-export const MenuWhite = "#ffffff";
-export const MenuHover = "#d0e646";
+export const MenuTextWhite = "#ffffff";
+export const MenuTextHover = "#d0e646";
 export const MenuTextSelected = "#d0e646";
-export const MenuFlyoutGradientTo = "#5c6814";
-export const MenuFlyoutGradientFrom = "#d0e646";
-export const MenuBackground = "#ffffff";
-export const MenuDark = "#5c6814";
+export const MenuBackgroundFlyoutGradientFrom = "#d0e646";
+export const MenuBackgroundFlyoutGradientTo = "#5c6814";
 export const IllustrationsDefault = "#afc33b";
 export const IllustrationsLight = "#e5fc5a";
 export const StepperDot = "#afc33b";
-export const StepperLabel = "#5b5a5a";
+export const StepperLabel = "#272727";
 export const StepperBorderDot = "#dfdfdf";
 export const StepperDotNumber = "#ffffff";
 export const StepperBorderDotSelected = "#8fa02a";
 export const StepperLine = "#afc33b";
 export const StepperLineDisabled = "#dfdfdf";
-export const TypefaceFontFamilySansSerif = "sora";
-export const TypefaceFontFamilyHeader = "sora";
-export const TypefaceFontFamilyBody = "sora";
-export const TypefaceFontFamilyStatement = "sora";
-export const TypefaceFontFamilyForm = "sora";
-export const TypefaceFontWeightRegular400 = "400";
-export const TypefaceFontWeightRegular500 = "500";
-export const TypefaceFontWeightBold700 = "700";
-export const TypefaceFontSizeSmall16 = "0.889rem";
-export const TypefaceFontSizeDefault20 = "1.111rem";
-export const TypefaceFontSizeLarge24 = "1.333rem";
-export const TypefaceFontSizeHuge48 = "2.667rem";
-export const TypefaceFontSizeExtraHuge72 = "4rem";
-export const TypefaceFontSizeExtraLarge36 = "2rem";
-export const TypefaceLetterSpacingDefault = "0.006rem";
-export const TypefaceLetterSpacingLarge = "0.011rem";
-export const TypefaceLineHeightDefault120 = "6.667rem";
-export const TypefaceLineHeightLarge150 = "8.333rem";
+export const TypographyHeadingHero = {
+  fontFamily: "Sora",
+  fontWeight: "700",
+  fontSize: "4rem",
+  lineHeight: "120%",
+  letterSpacing: "0.011rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyHeadingH1 = {
+  fontFamily: "Sora",
+  fontWeight: "700",
+  fontSize: "2.667rem",
+  lineHeight: "120%",
+  letterSpacing: "0.011rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyHeadingH2 = {
+  fontFamily: "Sora",
+  fontWeight: "700",
+  fontSize: "2rem",
+  lineHeight: "120%",
+  letterSpacing: "0.011rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyHeadingH3 = {
+  fontFamily: "Sora",
+  fontWeight: "700",
+  fontSize: "1.333rem",
+  lineHeight: "120%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyBodyDefault = {
+  fontFamily: "Sora",
+  fontWeight: "400",
+  fontSize: "1.111rem",
+  lineHeight: "150%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyBodySmall = {
+  fontFamily: "Sora",
+  fontWeight: "400",
+  fontSize: "0.889rem",
+  lineHeight: "150%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyBodyStrong = {
+  fontFamily: "Sora",
+  fontWeight: "500",
+  fontSize: "1.111rem",
+  lineHeight: "150%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyFormLabel = {
+  fontFamily: "Sora",
+  fontWeight: "500",
+  fontSize: "0.889rem",
+  lineHeight: "150%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyFormText = {
+  fontFamily: "Sora",
+  fontWeight: "400",
+  fontSize: "1.111rem",
+  lineHeight: "150%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyFormMessage = {
+  fontFamily: "Sora",
+  fontWeight: "400",
+  fontSize: "0.889rem",
+  lineHeight: "150%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyButtonLabel = {
+  fontFamily: "Sora",
+  fontWeight: "700",
+  fontSize: "1.111rem",
+  lineHeight: "120%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyLinkLabel = {
+  fontFamily: "Sora",
+  fontWeight: "500",
+  fontSize: "1.111rem",
+  lineHeight: "150%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyMenuDefault = {
+  fontFamily: "Sora",
+  fontWeight: "500",
+  fontSize: "1.111rem",
+  lineHeight: "150%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
+export const TypographyMenuLarge = {
+  fontFamily: "Sora",
+  fontWeight: "700",
+  fontSize: "1.333rem",
+  lineHeight: "120%",
+  letterSpacing: "0.011rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};

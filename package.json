@@ -16,10 +16,9 @@
     "./tokens.json": "./dist/tokens.json"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-tokens": "npm run prepare-tokens && style-dictionary build --config style-dictionary.config.mjs",
+    "build-tokens": "npm run prepare-tokens && style-dictionary build --config style-dictionary.config.mjs --verbose",
     "prepare-tokens": "node scripts/token-studio-flatten-script.mjs",
-    "publish-tokens": "npm version patch && git push && npm publish"
+    "publish-tokens": "npm run build-tokens && npm version patch && git push && npm publish"
   },
   "repository": {
     "type": "git",
