@@ -1115,6 +1115,32 @@
         "$type": "color",
         "$value": "{color.gray.light}"
       }
+    },
+    "link": {
+      "default": {
+        "text": {
+          "label": {
+            "$type": "color",
+            "$value": "{color.brand.default}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.brand.dark}"
+          }
+        }
+      },
+      "glassy": {
+        "text": {
+          "label": {
+            "$type": "color",
+            "$value": "{color.text.light}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.text.midnight}"
+          }
+        }
+      }
     }
   },
   "typography/tokens": {
