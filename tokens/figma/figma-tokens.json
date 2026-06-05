@@ -166,6 +166,10 @@
       "huge": {
         "$type": "dimension",
         "$value": "50px"
+      },
+      "round": {
+        "$type": "dimension",
+        "$value": "50px"
       }
     },
     "border": {
@@ -374,7 +378,7 @@
           "$type": "color",
           "$value": "{color.gray.bright}"
         },
-        "glass": {
+        "glassy": {
           "$type": "color",
           "$value": "{color.gray.white-transparent-70}"
         },
@@ -446,7 +450,7 @@
       "background": {
         "transparent": {
           "$type": "color",
-          "$value": "{color.surface.glass}"
+          "$value": "{color.surface.glassy}"
         },
         "white": {
           "$type": "color",
@@ -555,7 +559,7 @@
         "background": {
           "default": {
             "$type": "color",
-            "$value": "{color.surface.glass}"
+            "$value": "{color.surface.glassy}"
           },
           "hover": {
             "$type": "color",
@@ -612,10 +616,8 @@
         }
       },
       "radius": {
-        "default": {
-          "$type": "dimension",
-          "$value": "{mode.tile.radius}"
-        }
+        "$type": "dimension",
+        "$value": "{mode.tile.radius}"
       },
       "padding": {
         "default": {
@@ -801,7 +803,7 @@
     "form": {
       "default": {
         "background": {
-          "white": {
+          "enabled": {
             "$type": "color",
             "$value": "{color.gray.white}"
           },
@@ -843,7 +845,7 @@
       },
       "glassy": {
         "background": {
-          "white-transparent": {
+          "enabled": {
             "$type": "color",
             "$value": "{color.gray.white-transparent-40}"
           },
@@ -902,10 +904,8 @@
         }
       },
       "radius": {
-        "default": {
-          "$type": "dimension",
-          "$value": "{radius.default}"
-        }
+        "$type": "dimension",
+        "$value": "{radius.default}"
       },
       "border": {
         "width": {
@@ -1138,6 +1138,90 @@
           "hover": {
             "$type": "color",
             "$value": "{color.text.midnight}"
+          }
+        }
+      }
+    },
+    "chip": {
+      "text": {
+        "color": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.brand.default}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.brand.dark}"
+          }
+        }
+      },
+      "background": {
+        "enabled": {
+          "$type": "color",
+          "$value": "{color.gray.white}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.gray.bright}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.gray.bright}"
+        }
+      },
+      "border": {
+        "color": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.brand.default}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.brand.dark}"
+          }
+        }
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.round}"
+      },
+      "glassy": {
+        "text": {
+          "color": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.text.light}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{color.text.midnight}"
+            }
+          }
+        },
+        "background": {
+          "enabled": {
+            "$type": "color",
+            "$value": "{color.gray.white}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.gray.bright}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.gray.bright}"
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.brand.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{color.brand.dark}"
+            }
           }
         }
       }
