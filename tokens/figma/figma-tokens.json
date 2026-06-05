@@ -1137,7 +1137,7 @@
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.text.midnight}"
+            "$value": "{color.text.dark}"
           }
         }
       }
@@ -1194,7 +1194,7 @@
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.midnight}"
+              "$value": "{color.text.dark}"
             }
           }
         },
