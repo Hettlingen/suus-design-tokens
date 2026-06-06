@@ -392,22 +392,26 @@
         }
       },
       "form": {
-        "background-enabled": {
-          "$type": "color",
-          "$value": "{color.gray.white}"
-        },
-        "background-disabled": {
-          "$type": "color",
-          "$value": "{color.gray.ligth}"
+        "background": {
+          "enabled": {
+            "$type": "color",
+            "$value": "{color.gray.white}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.gray.ligth}"
+          }
         },
         "glassy": {
-          "background-enabled": {
-            "$type": "color",
-            "$value": "{color.gray.white-transparent-40}"
-          },
-          "background-disabled": {
-            "$type": "color",
-            "$value": "{color.gray.light}"
+          "background": {
+            "enabled": {
+              "$type": "color",
+              "$value": "{color.gray.white-transparent-40}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{color.gray.light}"
+            }
           }
         }
       },
