@@ -81,17 +81,47 @@ jobs:
 
       - name: Build tokens (ensure dist exists)
         run: npm run build-tokens
+      - name: Verify NPM token (whoami)
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "NPM_TOKEN not set — skipping whoami check"
+            exit 0
+          fi
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+          echo "Testing npm auth with 'npm whoami'..."
+          npm whoami || (echo "npm whoami failed; token may be invalid or require 2FA" && cat ~/.npmrc && exit 1)
+          rm -f ~/.npmrc
+
+      - name: Check if package version already published
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "NPM_TOKEN not set — cannot check registry; skipping publish check"
+            exit 0
+          fi
+          NAME=$(node -p "require('./package.json').name")
+          VERSION=$(node -p "require('./package.json').version")
+          echo "Checking npm registry for $NAME@$VERSION"
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+          if npm view "$NAME@$VERSION" >/dev/null 2>&1; then
+            echo "Version $VERSION of $NAME is already published. Skipping publish."
+            rm -f ~/.npmrc
+            exit 0
+          fi
+          rm -f ~/.npmrc
+          echo "Version $VERSION not found on registry — will attempt publish"
 
       - name: Publish to npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          # If no token is provided, skip publishing (prevents workflow failure)!
           if [ -z "$NODE_AUTH_TOKEN" ]; then
             echo "Skipping publish — NPM_TOKEN not set"
             exit 0
           fi
-          # Use NPM_TOKEN from Secrets to authenticate
           echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
           npm publish --access public || (cat ~/.npmrc && exit 1)
           rm -f ~/.npmrc
