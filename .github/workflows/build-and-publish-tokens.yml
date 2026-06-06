@@ -44,7 +44,7 @@ jobs:
     name: Publish to npm (only on main)
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && secrets.NPM_TOKEN != ''
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -64,6 +64,7 @@ jobs:
         run: npm run build-tokens
 
       - name: Publish to npm
+        if: ${{ secrets.NPM_TOKEN != '' }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
