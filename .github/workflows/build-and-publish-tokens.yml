@@ -67,7 +67,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          # If no token is provided, skip publishing (prevents workflow failure)
+          # If no token is provided, skip publishing (prevents workflow failure)!
           if [ -z "$NODE_AUTH_TOKEN" ]; then
             echo "Skipping publish — NPM_TOKEN not set"
             exit 0
