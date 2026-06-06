@@ -399,7 +399,7 @@
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.gray.ligth}"
+            "$value": "{color.gray.light}"
           }
         },
         "glassy": {
