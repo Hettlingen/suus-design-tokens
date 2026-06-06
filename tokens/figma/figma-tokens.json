@@ -380,7 +380,7 @@
         },
         "glassy": {
           "$type": "color",
-          "$value": "{color.gray.white-transparent-70}"
+          "$value": "{color.gray.white-transparent-40}"
         },
         "gradient-from": {
           "$type": "color",
@@ -389,6 +389,30 @@
         "gradient-to": {
           "$type": "color",
           "$value": "{color.green.midnight}"
+        }
+      },
+      "form": {
+        "background": {
+          "enabled": {
+            "$type": "color",
+            "$value": "{color.gray.white}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.gray.light}"
+          }
+        },
+        "glassy": {
+          "background": {
+            "enabled": {
+              "$type": "color",
+              "$value": "{color.gray.white-transparent-40}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{color.gray.light}"
+            }
+          }
         }
       },
       "text": {
@@ -1158,11 +1182,11 @@
       "background": {
         "enabled": {
           "$type": "color",
-          "$value": "{color.gray.white}"
+          "$value": "{color.form.background.enabled}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.gray.bright}"
+          "$value": "{color.form.background.disabled}"
         },
         "hover": {
           "$type": "color",
@@ -1201,11 +1225,11 @@
         "background": {
           "enabled": {
             "$type": "color",
-            "$value": "{color.gray.white}"
+            "$value": "{color.form.glassy.background.enabled}"
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.gray.bright}"
+            "$value": "{color.form.glassy.background.disabled}"
           },
           "hover": {
             "$type": "color",
