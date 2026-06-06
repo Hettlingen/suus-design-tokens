@@ -7,6 +7,14 @@ on:
       - 'style-dictionary.config.mjs'
       - 'scripts/**'
       - 'package.json'
+  pull_request:
+    paths:
+      - 'tokens/**'
+      - 'style-dictionary.config.mjs'
+      - 'scripts/**'
+      - 'package.json'
+  # Add manual trigger for debugging / manual publish
+  workflow_dispatch: {}
 
 jobs:
   build:
@@ -39,6 +47,17 @@ jobs:
           git commit -m "chore(tokens): build generated tokens [skip ci]" || echo "No changes to commit"
           # Push back to the current branch
           git push origin HEAD:${{ github.ref_name }} || echo "Push failed (possibly no permission)"
+
+      - name: "Debug: list changed files and dist"
+        run: |
+          echo "---- Modified tracked files ----"
+          git ls-files -m || true
+          echo "---- Untracked files ----"
+          git ls-files --others --exclude-standard || true
+          echo "---- Git status (porcelain) ----"
+          git --no-pager status --porcelain || true
+          echo "---- Dist directory contents ----"
+          if [ -d "dist" ]; then ls -la dist; else echo "dist/ not found"; fi
 
   publish:
     name: Publish to npm (only on main)
