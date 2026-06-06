@@ -64,10 +64,14 @@ jobs:
         run: npm run build-tokens
 
       - name: Publish to npm
-        if: ${{ secrets.NPM_TOKEN != '' }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
+          # If no token is provided, skip publishing (prevents workflow failure)
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "Skipping publish — NPM_TOKEN not set"
+            exit 0
+          fi
           # Use NPM_TOKEN from Secrets to authenticate
           echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
           npm publish --access public || (cat ~/.npmrc && exit 1)
