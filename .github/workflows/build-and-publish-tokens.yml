@@ -99,20 +99,28 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           if [ -z "$NODE_AUTH_TOKEN" ]; then
-            echo "NPM_TOKEN not set — cannot check registry; skipping publish check"
+            echo "Skipping version check — NPM_TOKEN not set"
             exit 0
           fi
-          NAME=$(node -p "require('./package.json').name")
-          VERSION=$(node -p "require('./package.json').version")
-          echo "Checking npm registry for $NAME@$VERSION"
-          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
-          if npm view "$NAME@$VERSION" >/dev/null 2>&1; then
-            echo "Version $VERSION of $NAME is already published. Skipping publish."
-            rm -f ~/.npmrc
+          echo "Preparing for publish..."
+
+      - name: Bump package version (minor publish)
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "NPM_TOKEN not set — skipping auto-version-bump"
             exit 0
           fi
-          rm -f ~/.npmrc
-          echo "Version $VERSION not found on registry — will attempt publish"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OLD_VERSION=$(node -p "require('./package.json').version")
+          npm version patch -m "chore(release): v%s [skip ci]"
+          NEW_VERSION=$(node -p "require('./package.json').version")
+          echo "Version bumped from $OLD_VERSION to $NEW_VERSION"
+          echo "Pushing version commit and tag..."
+          git push origin HEAD:main
+          git push origin --tags
 
       - name: Publish to npm
         env:
