@@ -1,0 +1,73 @@
+name: Build and publish design tokens
+
+on:
+  push:
+    paths:
+      - 'tokens/**'
+      - 'style-dictionary.config.mjs'
+      - 'scripts/**'
+      - 'package.json'
+
+jobs:
+  build:
+    name: Build tokens and commit generated files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build tokens
+        # uses the script from your package.json: "build-tokens"
+        run: npm run build-tokens
+
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(tokens): build generated tokens [skip ci]" || echo "No changes to commit"
+          # Push back to the current branch
+          git push origin HEAD:${{ github.ref_name }} || echo "Push failed (possibly no permission)"
+
+  publish:
+    name: Publish to npm (only on main)
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && secrets.NPM_TOKEN != ''
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build tokens (ensure dist exists)
+        run: npm run build-tokens
+
+      - name: Publish to npm
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          # Use NPM_TOKEN from Secrets to authenticate
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+          npm publish --access public || (cat ~/.npmrc && exit 1)
+          rm -f ~/.npmrc
