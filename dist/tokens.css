@@ -163,8 +163,10 @@
   --stepper-line: var(--color-green-default);
   --stepper-line-disabled: var(--color-gray-light);
   --chip-background-hover: var(--color-gray-bright);
+  --chip-background-checked: var(--color-gold-default);
   --chip-radius: var(--radius-round);
   --chip-glassy-background-hover: var(--color-gray-bright);
+  --chip-glassy-background-checked: var(--color-gold-default);
   --color-status-success: var(--color-states-success);
   --color-status-warning: var(--color-states-warning);
   --color-status-info: var(--color-states-info);
@@ -194,8 +196,8 @@
   --button-secondary-text-disabled: var(--color-text-disabled);
   --button-secondary-icon-disabled: var(--color-text-disabled);
   --form-default-text-label: var(--color-text-dark);
-  --form-default-text-placeholder: var(--color-text-placeholder);
   --form-default-text-content: var(--color-text-dark);
+  --form-default-text-placeholder: var(--color-text-placeholder);
   --form-default-border-color-enabled: var(--color-border-default);
   --form-default-border-color-selected: var(--color-border-focus);
   --form-glassy-text-label: var(--color-text-light);
