@@ -883,22 +883,50 @@
       }
     },
     "message": {
-      "success": {
-        "$type": "color",
-        "$value": "{color.status.success}"
+      "info": {
+        "text-color": {
+          "$type": "color",
+          "$value": "{color.status.info}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{color.status.info}"
+        }
       },
       "warning": {
-        "$type": "color",
-        "$value": "{color.status.warning}"
+        "text-color": {
+          "$type": "color",
+          "$value": "{color.status.warning}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{color.status.warning}"
+        }
       },
       "error": {
-        "$type": "color",
-        "$value": "{color.status.error}"
+        "text-color": {
+          "$type": "color",
+          "$value": "{color.status.error}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{color.status.error}"
+        }
       },
-      "info": {
-        "$type": "color",
-        "$value": "{color.status.info}"
+      "success": {
+        "text-color": {
+          "$type": "color",
+          "$value": "{color.status.success}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{color.status.success}"
+        }
       }
+    },
+    "font": {
+      "$type": "typography",
+      "$value": "{typography.form.message}"
     },
     "radius": {
       "$type": "dimension",
@@ -927,7 +955,7 @@
         "$type": "color",
         "$value": "{color.status.info}"
       },
-      "text": {
+      "text-color": {
         "$type": "color",
         "$value": "{color.text.light}"
       }
@@ -941,7 +969,7 @@
         "$type": "color",
         "$value": "{color.status.warning}"
       },
-      "text": {
+      "text-color": {
         "$type": "color",
         "$value": "{color.text.light}"
       }
@@ -955,7 +983,7 @@
         "$type": "color",
         "$value": "{color.status.success}"
       },
-      "text": {
+      "text-color": {
         "$type": "color",
         "$value": "{color.text.light}"
       }
@@ -969,7 +997,7 @@
         "$type": "color",
         "$value": "{color.status.error}"
       },
-      "text": {
+      "text-color": {
         "$type": "color",
         "$value": "{color.text.light}"
       }
@@ -1026,24 +1054,6 @@
       "light": {
         "$type": "color",
         "$value": "{color.text.light}"
-      }
-    },
-    "messages": {
-      "info": {
-        "$type": "color",
-        "$value": "{color.status.info}"
-      },
-      "warning": {
-        "$type": "color",
-        "$value": "{color.status.warning}"
-      },
-      "error": {
-        "$type": "color",
-        "$value": "{color.status.error}"
-      },
-      "success": {
-        "$type": "color",
-        "$value": "{color.status.success}"
       }
     }
   },

@@ -250,25 +250,39 @@ export const FormGlassyTextContent = "#ffffff";
 export const FormGlassyBorderColorEnabled = "#ffffffb3";
 export const FormGlassyBorderColorSelected = "#ffffff";
 export const FormGlassyBorderColorDisabled = "#dfdfdf";
-export const FormMessageSuccess = "#afc33b";
-export const FormMessageWarning = "#d9ab29";
-export const FormMessageError = "#de6565";
-export const FormMessageInfo = "#afc33b";
+export const FormMessageInfoTextColor = "#afc33b";
+export const FormMessageInfoBorderColor = "#afc33b";
+export const FormMessageWarningTextColor = "#d9ab29";
+export const FormMessageWarningBorderColor = "#d9ab29";
+export const FormMessageErrorTextColor = "#de6565";
+export const FormMessageErrorBorderColor = "#de6565";
+export const FormMessageSuccessTextColor = "#afc33b";
+export const FormMessageSuccessBorderColor = "#afc33b";
+export const FormFont = {
+  fontFamily: "Sora",
+  fontWeight: "400",
+  fontSize: "0.889rem",
+  lineHeight: "150%",
+  letterSpacing: "0.006rem",
+  paragraphSpacing: "0",
+  textCase: "none",
+  textDecoration: "none",
+};
 export const FormRadius = "16px";
 export const FormBorderWidthDefault = "1px";
 export const FormBorderWidthSelected = "2px";
 export const SnackbarInfoBackground = "#afc33b";
 export const SnackbarInfoBorder = "#afc33b";
-export const SnackbarInfoText = "#ffffff";
+export const SnackbarInfoTextColor = "#ffffff";
 export const SnackbarWarningBackground = "#d9ab29";
 export const SnackbarWarningBorder = "#d9ab29";
-export const SnackbarWarningText = "#ffffff";
+export const SnackbarWarningTextColor = "#ffffff";
 export const SnackbarSuccessBackground = "#afc33b";
 export const SnackbarSuccessBorder = "#afc33b";
-export const SnackbarSuccessText = "#ffffff";
+export const SnackbarSuccessTextColor = "#ffffff";
 export const SnackbarErrorBackground = "#de6565";
 export const SnackbarErrorBorder = "#de6565";
-export const SnackbarErrorText = "#ffffff";
+export const SnackbarErrorTextColor = "#ffffff";
 export const SnackbarBorderWidth = "2px";
 export const IconColorDefault = "#272727";
 export const IconColorInverse = "#ffffff";
@@ -280,10 +294,6 @@ export const TextTitleGlassy = "#ffffff";
 export const TextContentDefault = "#272727";
 export const TextContentMuted = "#5b5a5a";
 export const TextContentLight = "#ffffff";
-export const TextMessagesInfo = "#afc33b";
-export const TextMessagesWarning = "#d9ab29";
-export const TextMessagesError = "#de6565";
-export const TextMessagesSuccess = "#afc33b";
 export const MenuTextWhite = "#ffffff";
 export const MenuTextHover = "#d0e646";
 export const MenuTextSelected = "#d0e646";
