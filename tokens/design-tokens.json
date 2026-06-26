@@ -922,25 +922,25 @@
           "$type": "color",
           "$value": "{color.status.success}"
         }
-      }
-    },
-    "font": {
-      "$type": "typography",
-      "$value": "{typography.form.message}"
-    },
-    "radius": {
-      "$type": "dimension",
-      "$value": "{radius.default}"
-    },
-    "border": {
-      "width": {
-        "default": {
-          "$type": "dimension",
-          "$value": "{border.default}"
-        },
-        "selected": {
-          "$type": "dimension",
-          "$value": "{border.thick}"
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{typeface.font-size.small-16}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.default}"
+      },
+      "border": {
+        "width": {
+          "default": {
+            "$type": "dimension",
+            "$value": "{border.default}"
+          },
+          "selected": {
+            "$type": "dimension",
+            "$value": "{border.thick}"
+          }
         }
       }
     }
@@ -951,7 +951,7 @@
         "$type": "color",
         "$value": "{color.status.info}"
       },
-      "border": {
+      "border-color": {
         "$type": "color",
         "$value": "{color.status.info}"
       },
@@ -965,7 +965,7 @@
         "$type": "color",
         "$value": "{color.status.warning}"
       },
-      "border": {
+      "border-color": {
         "$type": "color",
         "$value": "{color.status.warning}"
       },
@@ -979,7 +979,7 @@
         "$type": "color",
         "$value": "{color.status.success}"
       },
-      "border": {
+      "border-color": {
         "$type": "color",
         "$value": "{color.status.success}"
       },
@@ -993,7 +993,7 @@
         "$type": "color",
         "$value": "{color.status.error}"
       },
-      "border": {
+      "border-color": {
         "$type": "color",
         "$value": "{color.status.error}"
       },

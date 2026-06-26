@@ -146,9 +146,10 @@
   --form-glassy-border-color-enabled: var(--color-gray-white-transparent-70);
   --form-glassy-border-color-selected: var(--color-gray-white);
   --form-glassy-border-color-disabled: var(--color-gray-light);
-  --form-radius: var(--radius-default);
-  --form-border-width-default: var(--border-default);
-  --form-border-width-selected: var(--border-thick);
+  --form-message-font-size: var(--typeface-font-size-small-16);
+  --form-message-radius: var(--radius-default);
+  --form-message-border-width-default: var(--border-default);
+  --form-message-border-width-selected: var(--border-thick);
   --snackbar-border-width: var(--border-thick);
   --icon-color-selected: var(--color-green-dark);
   --menu-text-hover: var(--color-green-light);
@@ -208,7 +209,7 @@
   --snackbar-warning-text-color: var(--color-text-light);
   --snackbar-success-text-color: var(--color-text-light);
   --snackbar-error-background: var(--color-status-error);
-  --snackbar-error-border: var(--color-status-error);
+  --snackbar-error-border-color: var(--color-status-error);
   --snackbar-error-text-color: var(--color-text-light);
   --icon-color-default: var(--color-text-dark);
   --icon-color-inverse: var(--color-text-light);
@@ -257,12 +258,11 @@
   --form-message-warning-border-color: var(--color-status-warning);
   --form-message-success-text-color: var(--color-status-success);
   --form-message-success-border-color: var(--color-status-success);
-  --form-font: var(--typography-form-message);
   --snackbar-info-background: var(--color-status-info);
-  --snackbar-info-border: var(--color-status-info);
+  --snackbar-info-border-color: var(--color-status-info);
   --snackbar-warning-background: var(--color-status-warning);
-  --snackbar-warning-border: var(--color-status-warning);
+  --snackbar-warning-border-color: var(--color-status-warning);
   --snackbar-success-background: var(--color-status-success);
-  --snackbar-success-border: var(--color-status-success);
+  --snackbar-success-border-color: var(--color-status-success);
   --stepper-dot-number: var(--text-content-light);
 }

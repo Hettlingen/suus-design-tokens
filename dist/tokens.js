@@ -258,30 +258,21 @@ export const FormMessageErrorTextColor = "#de6565";
 export const FormMessageErrorBorderColor = "#de6565";
 export const FormMessageSuccessTextColor = "#afc33b";
 export const FormMessageSuccessBorderColor = "#afc33b";
-export const FormFont = {
-  fontFamily: "Sora",
-  fontWeight: "400",
-  fontSize: "0.889rem",
-  lineHeight: "150%",
-  letterSpacing: "0.006rem",
-  paragraphSpacing: "0",
-  textCase: "none",
-  textDecoration: "none",
-};
-export const FormRadius = "16px";
-export const FormBorderWidthDefault = "1px";
-export const FormBorderWidthSelected = "2px";
+export const FormMessageFontSize = "0.889rem";
+export const FormMessageRadius = "16px";
+export const FormMessageBorderWidthDefault = "1px";
+export const FormMessageBorderWidthSelected = "2px";
 export const SnackbarInfoBackground = "#afc33b";
-export const SnackbarInfoBorder = "#afc33b";
+export const SnackbarInfoBorderColor = "#afc33b";
 export const SnackbarInfoTextColor = "#ffffff";
 export const SnackbarWarningBackground = "#d9ab29";
-export const SnackbarWarningBorder = "#d9ab29";
+export const SnackbarWarningBorderColor = "#d9ab29";
 export const SnackbarWarningTextColor = "#ffffff";
 export const SnackbarSuccessBackground = "#afc33b";
-export const SnackbarSuccessBorder = "#afc33b";
+export const SnackbarSuccessBorderColor = "#afc33b";
 export const SnackbarSuccessTextColor = "#ffffff";
 export const SnackbarErrorBackground = "#de6565";
-export const SnackbarErrorBorder = "#de6565";
+export const SnackbarErrorBorderColor = "#de6565";
 export const SnackbarErrorTextColor = "#ffffff";
 export const SnackbarBorderWidth = "2px";
 export const IconColorDefault = "#272727";
