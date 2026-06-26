@@ -1023,92 +1023,98 @@
       }
     },
     "form": {
-      "default": {
-        "background": {
-          "enabled": {
-            "$type": "color",
-            "$value": "{color.gray.white}"
-          },
-          "disabled": {
-            "$type": "color",
-            "$value": "{color.gray.bright}"
-          }
-        },
-        "text": {
-          "label": {
-            "$type": "color",
-            "$value": "{color.text.dark}"
-          },
-          "content": {
-            "disabled": {
-              "$type": "color",
-              "$value": "{color.text.disabled}"
-            },
-            "$type": "color",
-            "$value": "{color.text.dark}"
-          },
-          "placeholder": {
-            "$type": "color",
-            "$value": "{color.text.placeholder}"
-          }
-        },
-        "border": {
-          "color": {
+      "input": {
+        "default": {
+          "background": {
             "enabled": {
-              "$type": "color",
-              "$value": "{color.border.default}"
-            },
-            "selected": {
-              "$type": "color",
-              "$value": "{color.border.focus}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{color.gray.light}"
-            }
-          }
-        }
-      },
-      "glassy": {
-        "background": {
-          "enabled": {
-            "$type": "color",
-            "$value": "{color.gray.white-transparent-40}"
-          },
-          "disabled": {
-            "$type": "color",
-            "$value": "{color.gray.bright}"
-          }
-        },
-        "text": {
-          "label": {
-            "$type": "color",
-            "$value": "{color.text.light}"
-          },
-          "placeholder": {
-            "$type": "color",
-            "$value": "{color.gray.light}"
-          },
-          "content": {
-            "$type": "color",
-            "$value": "{color.text.light}"
-          }
-        },
-        "border": {
-          "color": {
-            "enabled": {
-              "$type": "color",
-              "$value": "{color.gray.white-transparent-70}"
-            },
-            "selected": {
               "$type": "color",
               "$value": "{color.gray.white}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.gray.light}"
+              "$value": "{color.gray.bright}"
+            }
+          },
+          "text": {
+            "label": {
+              "$type": "color",
+              "$value": "{color.text.dark}"
+            },
+            "content": {
+              "disabled": {
+                "$type": "color",
+                "$value": "{color.text.disabled}"
+              },
+              "$type": "color",
+              "$value": "{color.text.dark}"
+            },
+            "placeholder": {
+              "$type": "color",
+              "$value": "{color.text.placeholder}"
+            }
+          },
+          "border": {
+            "color": {
+              "enabled": {
+                "$type": "color",
+                "$value": "{color.border.default}"
+              },
+              "selected": {
+                "$type": "color",
+                "$value": "{color.border.focus}"
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{color.gray.light}"
+              }
             }
           }
+        },
+        "glassy": {
+          "background": {
+            "enabled": {
+              "$type": "color",
+              "$value": "{color.gray.white-transparent-40}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{color.gray.bright}"
+            }
+          },
+          "text": {
+            "label": {
+              "$type": "color",
+              "$value": "{color.text.light}"
+            },
+            "placeholder": {
+              "$type": "color",
+              "$value": "{color.gray.light}"
+            },
+            "content": {
+              "$type": "color",
+              "$value": "{color.text.light}"
+            }
+          },
+          "border": {
+            "color": {
+              "enabled": {
+                "$type": "color",
+                "$value": "{color.gray.white-transparent-70}"
+              },
+              "selected": {
+                "$type": "color",
+                "$value": "{color.gray.white}"
+              },
+              "disabled": {
+                "$type": "color",
+                "$value": "{color.gray.light}"
+              }
+            }
+          }
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{radius.default}"
         }
       },
       "message": {
