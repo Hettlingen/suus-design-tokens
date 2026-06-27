@@ -167,6 +167,10 @@
         "disabled": {
           "$type": "color",
           "$value": "{color.gray.light}"
+        },
+        "checked": {
+          "$type": "color",
+          "$value": "{color.green.midnight}"
         }
       },
       "glassy": {
@@ -178,6 +182,10 @@
           "disabled": {
             "$type": "color",
             "$value": "{color.gray.light}"
+          },
+          "checked": {
+            "$type": "color",
+            "$value": "{color.green.midnight}"
           }
         }
       }

@@ -73,8 +73,10 @@
   --color-surface-gradient-to: var(--color-green-midnight);
   --color-form-background-enabled: var(--color-gray-white);
   --color-form-background-disabled: var(--color-gray-light);
+  --color-form-background-checked: var(--color-green-midnight);
   --color-form-glassy-background-enabled: var(--color-gray-white-transparent-40);
   --color-form-glassy-background-disabled: var(--color-gray-light);
+  --color-form-glassy-background-checked: var(--color-green-midnight);
   --color-text-dark: var(--color-gray-dark);
   --color-text-light: var(--color-gray-white);
   --color-text-muted: var(--color-gray-midnight);
