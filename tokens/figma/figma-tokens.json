@@ -1041,6 +1041,10 @@
             "disabled": {
               "$type": "color",
               "$value": "{color.gray.bright}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{color.green.default}"
             }
           },
           "text": {
@@ -1071,6 +1075,10 @@
                 "$type": "color",
                 "$value": "{color.border.focus}"
               },
+              "hover": {
+                "$type": "color",
+                "$value": "{color.green.midnight}"
+              },
               "disabled": {
                 "$type": "color",
                 "$value": "{color.gray.light}"
@@ -1087,6 +1095,10 @@
             "disabled": {
               "$type": "color",
               "$value": "{color.gray.bright}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{color.green.midnight}"
             }
           },
           "text": {
@@ -1112,6 +1124,10 @@
               "selected": {
                 "$type": "color",
                 "$value": "{color.gray.white}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{color.green.midnight}"
               },
               "disabled": {
                 "$type": "color",
