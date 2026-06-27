@@ -141,12 +141,16 @@
   --button-padding-right: var(--padding-40);
   --form-input-default-background-enabled: var(--color-gray-white);
   --form-input-default-background-disabled: var(--color-gray-bright);
+  --form-input-default-background-hover: var(--color-green-default);
+  --form-input-default-border-color-hover: var(--color-green-midnight);
   --form-input-default-border-color-disabled: var(--color-gray-light);
   --form-input-glassy-background-enabled: var(--color-gray-white-transparent-40);
   --form-input-glassy-background-disabled: var(--color-gray-bright);
+  --form-input-glassy-background-hover: var(--color-green-midnight);
   --form-input-glassy-text-placeholder: var(--color-gray-light);
   --form-input-glassy-border-color-enabled: var(--color-gray-white-transparent-70);
   --form-input-glassy-border-color-selected: var(--color-gray-white);
+  --form-input-glassy-border-color-hover: var(--color-green-midnight);
   --form-input-glassy-border-color-disabled: var(--color-gray-light);
   --form-input-radius: var(--radius-default);
   --form-message-font-size: var(--typeface-font-size-small-16);
