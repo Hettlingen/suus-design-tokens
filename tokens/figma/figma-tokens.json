@@ -106,13 +106,13 @@
           "$type": "color",
           "$value": "#da8e33"
         },
-        "guava": {
+        "guarana": {
           "$type": "color",
-          "$value": "#7b4e80"
+          "$value": "#DF2114"
         },
         "icetea": {
           "$type": "color",
-          "$value": "#d83a4f"
+          "$value": "#7b4e80"
         }
       }
     },
@@ -1127,6 +1127,32 @@
         "hover": {
           "$type": "color",
           "$value": "{color.green.light}"
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{color.green.light}"
+        }
+      },
+      "background": {
+        "flyout-gradient-from": {
+          "$type": "color",
+          "$value": "{color.green.light}"
+        },
+        "flyout-gradient-to": {
+          "$type": "color",
+          "$value": "{color.green.midnight}"
+        }
+      }
+    },
+    "menu-flyout": {
+      "text": {
+        "white": {
+          "$type": "color",
+          "$value": "{color.text.light}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.green.default}"
         },
         "selected": {
           "$type": "color",
