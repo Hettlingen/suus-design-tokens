@@ -1007,58 +1007,56 @@
       }
     },
     "snackbar": {
-      "info": {
-        "background": {
+      "background": {
+        "info": {
           "$type": "color",
           "$value": "{color.status.info}"
         },
-        "border-color": {
+        "warning": {
+          "$type": "color",
+          "$value": "{color.status.warning}"
+        },
+        "erro": {
+          "$type": "color",
+          "$value": "{color.status.error}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.status.success}"
+        }
+      },
+      "border-color": {
+        "info": {
           "$type": "color",
           "$value": "{color.status.info}"
         },
-        "text-color": {
-          "$type": "color",
-          "$value": "{color.text.light}"
-        }
-      },
-      "warning": {
-        "background": {
+        "warning": {
           "$type": "color",
           "$value": "{color.status.warning}"
         },
-        "border-color": {
-          "$type": "color",
-          "$value": "{color.status.warning}"
-        },
-        "text-color": {
-          "$type": "color",
-          "$value": "{color.text.light}"
-        }
-      },
-      "success": {
-        "background": {
-          "$type": "color",
-          "$value": "{color.status.success}"
-        },
-        "border-color": {
-          "$type": "color",
-          "$value": "{color.status.success}"
-        },
-        "text-color": {
-          "$type": "color",
-          "$value": "{color.text.light}"
-        }
-      },
-      "error": {
-        "background": {
+        "erro": {
           "$type": "color",
           "$value": "{color.status.error}"
         },
-        "border-color": {
+        "success": {
           "$type": "color",
-          "$value": "{color.status.error}"
+          "$value": "{color.status.success}"
+        }
+      },
+      "text-color": {
+        "info": {
+          "$type": "color",
+          "$value": "{color.text.light}"
         },
-        "text-color": {
+        "warning": {
+          "$type": "color",
+          "$value": "{color.text.light}"
+        },
+        "erro": {
+          "$type": "color",
+          "$value": "{color.text.light}"
+        },
+        "success": {
           "$type": "color",
           "$value": "{color.text.light}"
         }
