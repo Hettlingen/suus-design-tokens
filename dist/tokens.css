@@ -216,12 +216,12 @@
   --form-input-glassy-text-content: var(--color-text-light);
   --form-message-error-text-color: var(--color-status-error);
   --form-message-error-border-color: var(--color-status-error);
-  --snackbar-info-text-color: var(--color-text-light);
-  --snackbar-warning-text-color: var(--color-text-light);
-  --snackbar-success-text-color: var(--color-text-light);
-  --snackbar-error-background: var(--color-status-error);
-  --snackbar-error-border-color: var(--color-status-error);
-  --snackbar-error-text-color: var(--color-text-light);
+  --snackbar-background-erro: var(--color-status-error);
+  --snackbar-border-color-erro: var(--color-status-error);
+  --snackbar-text-color-info: var(--color-text-light);
+  --snackbar-text-color-warning: var(--color-text-light);
+  --snackbar-text-color-erro: var(--color-text-light);
+  --snackbar-text-color-success: var(--color-text-light);
   --icon-color-default: var(--color-text-dark);
   --icon-color-inverse: var(--color-text-light);
   --icon-color-selected-inverse: var(--color-text-light);
@@ -270,11 +270,11 @@
   --form-message-warning-border-color: var(--color-status-warning);
   --form-message-success-text-color: var(--color-status-success);
   --form-message-success-border-color: var(--color-status-success);
-  --snackbar-info-background: var(--color-status-info);
-  --snackbar-info-border-color: var(--color-status-info);
-  --snackbar-warning-background: var(--color-status-warning);
-  --snackbar-warning-border-color: var(--color-status-warning);
-  --snackbar-success-background: var(--color-status-success);
-  --snackbar-success-border-color: var(--color-status-success);
+  --snackbar-background-info: var(--color-status-info);
+  --snackbar-background-warning: var(--color-status-warning);
+  --snackbar-background-success: var(--color-status-success);
+  --snackbar-border-color-info: var(--color-status-info);
+  --snackbar-border-color-warning: var(--color-status-warning);
+  --snackbar-border-color-success: var(--color-status-success);
   --stepper-dot-number: var(--text-content-light);
 }
