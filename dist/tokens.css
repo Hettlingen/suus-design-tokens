@@ -24,8 +24,8 @@
   --color-states-error: #de6565;
   --color-juice-sugarcane: #9bad30;
   --color-juice-tamarind: #da8e33;
-  --color-juice-guava: #7b4e80;
-  --color-juice-icetea: #d83a4f;
+  --color-juice-guarana: #df2114;
+  --color-juice-icetea: #7b4e80;
   --padding-8: 8px;
   --padding-16: 16px;
   --padding-24: 24px;
@@ -163,6 +163,10 @@
   --menu-text-selected: var(--color-green-light);
   --menu-background-flyout-gradient-from: var(--color-green-light);
   --menu-background-flyout-gradient-to: var(--color-green-midnight);
+  --menu-flyout-text-hover: var(--color-green-default);
+  --menu-flyout-text-selected: var(--color-green-light);
+  --menu-flyout-background-flyout-gradient-from: var(--color-green-light);
+  --menu-flyout-background-flyout-gradient-to: var(--color-green-midnight);
   --illustrations-default: var(--color-green-default);
   --illustrations-light: var(--color-green-bright);
   --stepper-dot: var(--color-green-default);
@@ -228,6 +232,7 @@
   --text-content-muted: var(--color-text-muted);
   --text-content-light: var(--color-text-light);
   --menu-text-white: var(--color-text-light);
+  --menu-flyout-text-white: var(--color-text-light);
   --stepper-label: var(--color-text-dark);
   --link-default-text-label: var(--color-brand-default);
   --link-default-text-hover: var(--color-brand-dark);
