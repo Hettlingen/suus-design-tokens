@@ -216,7 +216,7 @@
   --form-input-glassy-text-content: var(--color-text-light);
   --form-message-error-text-color: var(--color-status-error);
   --form-message-error-border-color: var(--color-status-error);
-  --snackbar-background-erro: var(--color-status-error);
+  --snackbar-background-error: var(--color-status-error);
   --snackbar-border-color-erro: var(--color-status-error);
   --snackbar-text-color-info: var(--color-text-light);
   --snackbar-text-color-warning: var(--color-text-light);
