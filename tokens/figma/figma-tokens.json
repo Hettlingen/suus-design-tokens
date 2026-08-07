@@ -1016,7 +1016,7 @@
           "$type": "color",
           "$value": "{color.status.warning}"
         },
-        "erro": {
+        "error": {
           "$type": "color",
           "$value": "{color.status.error}"
         },
