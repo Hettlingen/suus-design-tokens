@@ -64,6 +64,12 @@ export const Padding40 = "40px";
 export const Padding48 = "48px";
 export const Padding56 = "56px";
 export const Padding64 = "64px";
+export const SpacingFluidXs = "clamp(0.25rem, 0.2rem + 0.3vw, 0.5rem)";
+export const SpacingFluidSm = "clamp(0.5rem, 0.4rem + 0.5vw, 1rem)";
+export const SpacingFluidMd = "clamp(1rem, 0.85rem + 0.75vw, 1.5rem)";
+export const SpacingFluidLg = "clamp(1.5rem, 1.2rem + 1.2vw, 2rem)";
+export const SpacingFluidXl = "clamp(2rem, 1.6rem + 1.8vw, 2.5rem)";
+export const SpacingFluidXxl = "clamp(2.5rem, 2rem + 2.5vw, 4rem)";
 export const RadiusSmall = "8px";
 export const RadiusDefault = "16px";
 export const RadiusLarge = "24px";
@@ -102,10 +108,25 @@ export const TypefaceFontSizeLarge24 = "1.333rem";
 export const TypefaceFontSizeExtraLarge36 = "2rem";
 export const TypefaceFontSizeHuge48 = "2.667rem";
 export const TypefaceFontSizeExtraHuge72 = "4rem";
+export const TypefaceFontSizeFluidSmall =
+  "clamp(0.833rem, 0.78rem + 0.25vw, 0.889rem)";
+export const TypefaceFontSizeFluidDefault =
+  "clamp(1rem, 0.93rem + 0.35vw, 1.111rem)";
+export const TypefaceFontSizeFluidLarge =
+  "clamp(1.15rem, 1.05rem + 0.5vw, 1.333rem)";
+export const TypefaceFontSizeFluidExtraLarge =
+  "clamp(1.5rem, 1.3rem + 1vw, 2rem)";
+export const TypefaceFontSizeFluidHuge =
+  "clamp(1.8rem, 1.5rem + 1.5vw, 2.667rem)";
+export const TypefaceFontSizeFluidExtraHuge =
+  "clamp(2.2rem, 1.7rem + 2.5vw, 4rem)";
 export const TypefaceLetterSpacingDefault = "0.006rem";
 export const TypefaceLetterSpacingLarge = "0.011rem";
 export const TypefaceLineHeightDefault120 = "120%";
 export const TypefaceLineHeightLarge150 = "150%";
+export const BreakpointTablet = "768px";
+export const BreakpointDesktop = "1024px";
+export const BreakpointDesktopWide = "1440px";
 export const ModePanelRadius = "24px";
 export const ModePanelPadding = "64px";
 export const ModeTileRadius = "8px";
