@@ -1151,6 +1151,32 @@
         "$type": "color",
         "$value": "{color.text.light}"
       }
+    },
+    "fluid": {
+      "small": {
+        "$type": "dimension",
+        "$value": "{typeface.font-size.fluid.small}"
+      },
+      "default": {
+        "$type": "dimension",
+        "$value": "{typeface.font-size.fluid.default}"
+      },
+      "large": {
+        "$type": "dimension",
+        "$value": "{typeface.font-size.fluid.large}"
+      },
+      "extra-large": {
+        "$type": "dimension",
+        "$value": "{typeface.font-size.fluid.extra-large}"
+      },
+      "huge": {
+        "$type": "dimension",
+        "$value": "{typeface.font-size.fluid.huge}"
+      },
+      "extra-huge": {
+        "$type": "dimension",
+        "$value": "{typeface.font-size.fluid.extra-huge}"
+      }
     }
   },
   "menu": {
@@ -1360,6 +1386,50 @@
             "$value": "{color.brand.dark}"
           }
         }
+      }
+    }
+  },
+  "space": {
+    "fluid": {
+      "tiny": {
+        "$type": "dimension",
+        "$value": "{spacing.fluid.xs}"
+      },
+      "small": {
+        "$type": "dimension",
+        "$value": "{spacing.fluid.sm}"
+      },
+      "default": {
+        "$type": "dimension",
+        "$value": "{spacing.fluid.md}"
+      },
+      "large": {
+        "$type": "dimension",
+        "$value": "{spacing.fluid.lg}"
+      },
+      "huge": {
+        "$type": "dimension",
+        "$value": "{spacing.fluid.xl}"
+      },
+      "huge-2": {
+        "$type": "dimension",
+        "$value": "{spacing.fluid.xxl}"
+      }
+    }
+  },
+  "layout": {
+    "breakpoint": {
+      "tablet": {
+        "$type": "dimension",
+        "$value": "{breakpoint.tablet}"
+      },
+      "desktop": {
+        "$type": "dimension",
+        "$value": "{breakpoint.desktop}"
+      },
+      "desktop-wide": {
+        "$type": "dimension",
+        "$value": "{breakpoint.desktop-wide}"
       }
     }
   },
